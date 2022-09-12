@@ -1,3 +1,15 @@
+body {
+    font-family: sans-serif;
+    color: blue;
+    text-align: justify;
+}
+
+
+h2 {
+    font-size: 35px;
+    color: red;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -20,30 +32,33 @@
 
 .navbar-item > a {
     text-decoration: none;
-    color: black;
+    color: red;
+    font-size: 25px;
 }
 
 .section {
-    width: 400px;
+    width: 33.33%;
     height: 600px;
     padding: 20px;
 }
 
 .section div {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .section-button {
     width: 100%;
+    height: 35px;
 }
 
 
 .image {
     width: 80%;
-    height: 200px;
+    height: 300px;
     margin-left: 30px;
 }
 
 .footer{
+    font-size: 15px;
  text-align: center;
-}5
+}
